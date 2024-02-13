@@ -49,8 +49,3 @@ plt.title('Chosen Midpoint for Each Task')
 plt.xlabel('Task')
 plt.ylabel('Chosen Midpoint')
 plt.show()
-
-
-
-
-
