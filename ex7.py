@@ -49,3 +49,7 @@ plt.title('Chosen Midpoint for Each Task')
 plt.xlabel('Task')
 plt.ylabel('Chosen Midpoint')
 plt.show()
+
+
+''' The choice of initial midpoint is important because it can affect the time it takes to find the value in the array.
+If the initial midpoint is close to the value, the time it takes to find the value will be shorter. If the initial midpoint'''

@@ -16,6 +16,8 @@ def bubble_sort(arr):
     return comparisons, swaps
 
 # Testing the algorithm with inputs of increasing size so it depicts the correlation between increasing array size and the number of comparisons and swaps.
+# We will use a reversed sorted array to portray the worst-case complexity of the algorithm.
+# We will also use the random module to shuffle the array to simulate average-case complexity as suggested in the exercise. 
 
 sizes = [100, 500, 1000, 2000, 5000, 10000]  
 
